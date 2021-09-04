@@ -23,11 +23,11 @@ jobs:
       matrix:
         os:
           - macos-10.15
-          # - ubuntu-18.04
+          - ubuntu-18.04
           - ubuntu-20.04
         emacs-version:
-          # - '25.3'
-          # - '26.3'
+          - '25.3'
+          - '26.3'
           - '27.2'
         include:
           # # Older Emacs binaries for Windows don't have dynamic modules enabled.
